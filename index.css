@@ -1,0 +1,181 @@
+body {
+    font-family: arial,sans-serif;
+    font-weight: 500;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border-color: #D9DCE0;
+    background-color: #D9DCE0;
+    color: #D9DCE0;
+    border: 1px solid;
+}
+#headerContent {
+    float: right;
+    white-space: nowrap;
+    margin: 3vh;
+    
+}
+
+.headerLinks {
+    display: inline-block;
+    padding-right: 3vh;
+}
+
+#signInButton {
+    background-color: #4684EE;
+    border-color: #4684EE;
+    border-radius: 2px;
+    height: 30px;
+    font-weight: 600;
+    outline: none;
+    padding: 0 12px;
+    
+}
+
+#signInText {
+    color: white;
+}
+
+#mainContent {
+    display: block;
+}
+
+#logoContainer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25vh;
+    height: auto;
+    max-width: 280px;
+    margin-bottom: 4vh;
+    
+    
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.midButtons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#searchBar {
+    display: block;
+    width: 582px;
+    margin: auto;
+    height: 4vh;
+    border-radius: 25px;
+    border: 1px #E1E1E2 solid;
+    padding: 0px 5px 9px 25px;
+    height: 30px;
+}
+
+#searchInput {
+    height: 100%;
+    width: 87%;
+    border: none;
+    background: transparent;
+    margin-top: -3px;
+    height: 30px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#country {
+    margin: 2vh;
+}
+
+#footerLeft {
+    float: left;
+    margin: 2vh;
+}
+
+.greyLinks {
+    color: rgb(112, 117, 121);
+}
+
+#footerRight {
+    float: right;
+    margin: 2vh;
+}
+
+.gridImage {
+    background-image: url(//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+}
+
+.gridSpec {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-position: -132px -38px;
+    opacity: 0.55
+}
+
+.micSymbol {
+    background: url(//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    margin-left: 10px;
+}
+
+.wFncld {
+    color: #9AA0A6;
+    height: 24px;
+    width: 24px;
+    margin-top: 8px;
+    margin-left: -5px;
+    display: inline-block;
+    fill: currentColor;
+
+    line-height: 24px;
+    position: relative;
+}
+
+input:focus {
+    outline:none;
+}
